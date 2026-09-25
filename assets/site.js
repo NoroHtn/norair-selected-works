@@ -94,9 +94,11 @@
     art.addEventListener('pointerleave', leave);
     art.addEventListener('pointercancel', leave);
   });
+  let resetShowcaseMotion = () => {};
   const preferenceChange = () => {
     artworks.forEach(resetTilt);
     document.body.classList.toggle('motion-paused', !motionAllowed());
+    resetShowcaseMotion();
     const motionButton = document.querySelector('[data-motion]');
     if (motionButton) {
       motionButton.setAttribute('aria-pressed', String(motionAllowed()));
@@ -110,7 +112,10 @@
   };
   if (reducedMotion.addEventListener) reducedMotion.addEventListener('change', preferenceChange);
   else reducedMotion.addListener(preferenceChange);
-  if (finePointer.addEventListener) finePointer.addEventListener('change', () => artworks.forEach(resetTilt));
+  if (finePointer.addEventListener) finePointer.addEventListener('change', () => {
+    artworks.forEach(resetTilt);
+    resetShowcaseMotion();
+  });
 
   document.querySelector('[data-motion]')?.addEventListener('click', () => {
     manuallyPaused = !manuallyPaused;
@@ -146,9 +151,15 @@
     const mainImage = showcase.querySelector('[data-showcase-image]');
     const mainLink = showcase.querySelector('[data-showcase-link]');
     const title = showcase.querySelector('[data-showcase-title]');
+    const stage = showcase.querySelector('.art-stage');
+    const backCards = Array.from(showcase.querySelectorAll('.stage-back'));
+    let imageTransition;
+    let titleTransition;
+    let backTransitions = [];
     let selected = 0;
     let request = 0;
     const display = async position => {
+      const direction = position >= selected ? 1 : -1;
       selected = (position + items.length) % items.length;
       const index = selected;
       const token = ++request;
@@ -168,7 +179,20 @@
       showcase.querySelector('.stage-back-one').src = items[(index + 1) % items.length].image;
       showcase.querySelector('.stage-back-two').src = items[(index + 2) % items.length].image;
       showcase.querySelectorAll('[data-showcase-go]').forEach(button => button.setAttribute('aria-pressed', String(Number(button.dataset.showcaseGo) === index)));
-      if (motionAllowed() && mainImage.animate) mainImage.animate([{ opacity: .45, transform: 'scale(.975)' }, { opacity: 1, transform: 'scale(1)' }], { duration: 360, easing: 'ease-out' });
+      imageTransition?.cancel();
+      titleTransition?.cancel();
+      backTransitions.forEach(animation => animation.cancel());
+      if (motionAllowed() && mainImage.animate) {
+        imageTransition = mainImage.animate([
+          { opacity: .35, transform: `translateX(${direction * 18}px) scale(.985)` },
+          { opacity: 1, transform: 'translateX(0) scale(1)' }
+        ], { duration: 480, easing: 'cubic-bezier(.2,.75,.25,1)' });
+        titleTransition = title.animate([
+          { opacity: .3, transform: 'translateY(6px)' },
+          { opacity: 1, transform: 'translateY(0)' }
+        ], { duration: 380, easing: 'ease-out' });
+        backTransitions = backCards.map(card => card.animate([{ opacity: .45 }, { opacity: 1 }], { duration: 480, easing: 'ease-out' }));
+      }
     };
     showcase.querySelector('[data-showcase-prev]').addEventListener('click', () => display(selected - 1));
     showcase.querySelector('[data-showcase-next]').addEventListener('click', () => display(selected + 1));
@@ -177,17 +201,80 @@
       if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
       event.preventDefault(); display(selected + (event.key === 'ArrowRight' ? 1 : -1));
     });
+    // Independent card depths: input-driven frames only, with no idle animation loop.
     let stageFrame = 0;
-    showcase.addEventListener('pointermove', event => {
-      if (!motionAllowed() || !finePointer.matches || event.pointerType === 'touch') return;
+    let pointer = null;
+    const clamp = value => Math.max(-1, Math.min(1, value));
+    const pointerProperties = ['--stage-x', '--stage-y', '--stage-pointer-x', '--stage-pointer-y', '--stage-light-x', '--stage-light-y'];
+    const resetPointer = () => {
+      pointer = null;
+      showcase.classList.remove('is-pointer-active');
+      pointerProperties.forEach(property => showcase.style.removeProperty(property));
+    };
+    const updateStage = () => {
+      stageFrame = 0;
+      if (!motionAllowed() || document.hidden) return;
+      const rect = stage.getBoundingClientRect();
+      if (!rect.width || !rect.height || rect.bottom < 0 || rect.top > window.innerHeight) return;
+      const scrollDepth = clamp((window.innerHeight * .48 - rect.top - rect.height / 2) / (window.innerHeight * .6));
+      showcase.style.setProperty('--stage-scroll', (scrollDepth * 14).toFixed(2) + 'px');
+      if (!pointer || !finePointer.matches) return;
+      const x = clamp((pointer.x - rect.left) / rect.width * 2 - 1);
+      const y = clamp((pointer.y - rect.top) / rect.height * 2 - 1);
+      showcase.style.setProperty('--stage-pointer-x', x.toFixed(3));
+      showcase.style.setProperty('--stage-pointer-y', y.toFixed(3));
+      showcase.style.setProperty('--stage-x', (x * 5).toFixed(2) + 'deg');
+      showcase.style.setProperty('--stage-y', (-y * 4).toFixed(2) + 'deg');
+      showcase.style.setProperty('--stage-light-x', ((x + 1) * 50).toFixed(1) + '%');
+      showcase.style.setProperty('--stage-light-y', ((y + 1) * 50).toFixed(1) + '%');
+      showcase.classList.add('is-pointer-active');
+    };
+    const scheduleStage = () => {
+      if (!stageFrame && motionAllowed() && !document.hidden) stageFrame = requestAnimationFrame(updateStage);
+    };
+    resetShowcaseMotion = () => {
       cancelAnimationFrame(stageFrame);
-      stageFrame = requestAnimationFrame(() => {
-        const rect = showcase.getBoundingClientRect();
-        showcase.style.setProperty('--stage-x', ((event.clientX - rect.left) / rect.width * 5 - 2.5) + 'deg');
-        showcase.style.setProperty('--stage-y', (2.5 - (event.clientY - rect.top) / rect.height * 5) + 'deg');
-      });
+      stageFrame = 0;
+      resetPointer();
+      showcase.style.removeProperty('--stage-scroll');
+      scheduleStage();
+    };
+    stage.addEventListener('pointermove', event => {
+      if (!motionAllowed() || !finePointer.matches || event.pointerType === 'touch') return;
+      pointer = { x: event.clientX, y: event.clientY };
+      scheduleStage();
     }, { passive: true });
-    showcase.addEventListener('pointerleave', () => { cancelAnimationFrame(stageFrame); showcase.style.removeProperty('--stage-x'); showcase.style.removeProperty('--stage-y'); });
+    stage.addEventListener('pointerleave', resetPointer);
+    stage.addEventListener('pointercancel', resetPointer);
+    window.addEventListener('blur', resetShowcaseMotion);
+    window.addEventListener('scroll', scheduleStage, { passive: true });
+    window.addEventListener('resize', resetShowcaseMotion, { passive: true });
+    document.addEventListener('visibilitychange', resetShowcaseMotion);
+    scheduleStage();
+
+    // Horizontal touch gestures browse artworks; vertical gestures retain native page scrolling.
+    let touchStart = null;
+    let suppressClickUntil = 0;
+    stage.addEventListener('pointerdown', event => {
+      if (event.pointerType !== 'touch' || !event.isPrimary) return;
+      touchStart = { x: event.clientX, y: event.clientY, id: event.pointerId };
+    }, { passive: true });
+    stage.addEventListener('pointerup', event => {
+      if (!touchStart || touchStart.id !== event.pointerId) return;
+      const dx = event.clientX - touchStart.x;
+      const dy = event.clientY - touchStart.y;
+      touchStart = null;
+      if (Math.abs(dx) < 50 || Math.abs(dx) <= Math.abs(dy) * 1.5) return;
+      suppressClickUntil = performance.now() + 700;
+      display(selected + (dx < 0 ? 1 : -1));
+    }, { passive: true });
+    stage.addEventListener('pointercancel', () => { touchStart = null; });
+    stage.addEventListener('click', event => {
+      if (event.detail && performance.now() < suppressClickUntil) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+    }, true);
   }
 
   const search = document.getElementById('game-search');

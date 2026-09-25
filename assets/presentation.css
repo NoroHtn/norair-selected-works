@@ -20,7 +20,6 @@ body{font-size:16px;overflow-x:clip}
 .stage-main>img{width:100%;height:100%;object-fit:contain;background:var(--panel)}
 .stage-back{position:absolute;width:310px;height:310px;top:25px;object-fit:contain;border-radius:14px;box-shadow:0 16px 50px #0008;outline:1px solid #ffffff25;filter:brightness(.65);transition:transform .6s ease,filter .6s ease}
 .stage-back-one{right:0;transform:translateX(0) rotate(8deg);z-index:2}.stage-back-two{left:0;transform:rotate(-8deg);z-index:1}
-.showcase:hover .stage-back-one{transform:translateX(7px) rotate(10deg);filter:brightness(.82)}.showcase:hover .stage-back-two{transform:translateX(-7px) rotate(-10deg);filter:brightness(.82)}
 .stage-open{position:absolute;bottom:15px;left:15px;right:15px;display:flex;justify-content:space-between;align-items:center;background:#090a0de8;border:1px solid #ffffff36;border-radius:6px;padding:12px 15px;font-size:12px;opacity:0;transform:translateY(6px);transition:opacity .25s,transform .25s;backdrop-filter:blur(10px)}
 .stage-main:hover .stage-open,.stage-main:focus-visible .stage-open{opacity:1;transform:none}
 .showcase-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 10px 16px}.showcase-info>span{display:block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ruby);margin-bottom:7px}.showcase-info>a{font:500 20px/1.2 var(--display)}
@@ -49,3 +48,27 @@ body[data-layout="index"] .grid{display:block}body[data-layout="index"] .card{bo
 @media(max-width:365px){.collection-nav a{font-size:11px;padding-inline:6px;gap:5px}.view-switch button{padding-inline:6px}.collection-nav{gap:3px}.hero-actions{gap:18px}.capabilities>div{grid-template-columns:1fr;gap:5px}}
 body.motion-paused *,body.motion-paused *::before,body.motion-paused *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}body.motion-paused .card-art,body.motion-paused .stage-main{transform:none!important}body.motion-paused .stage-back-one{transform:rotate(8deg)!important}body.motion-paused .stage-back-two{transform:rotate(-8deg)!important}html:has(body.motion-paused){scroll-behavior:auto}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.stage-main{transform:none!important}.showcase:hover .stage-back-one{transform:rotate(8deg)}.showcase:hover .stage-back-two{transform:rotate(-8deg)}::view-transition-old(root),::view-transition-new(root){animation:none!important}}
+
+/* Fortune showcase: layered parallax, cursor light and tactile controls. */
+.showcase .art-stage{touch-action:pan-y pinch-zoom}
+.showcase .stage-main{transform:translate3d(calc(var(--stage-pointer-x,0) * 8px),calc(var(--stage-pointer-y,0) * 6px + var(--stage-scroll,0px)),0) rotateY(var(--stage-x,0deg)) rotateX(var(--stage-y,0deg));transition:transform .5s cubic-bezier(.2,.75,.25,1),box-shadow .4s ease}
+.showcase .stage-back-one{transform:translate3d(calc(var(--stage-pointer-x,0) * -13px),calc(var(--stage-pointer-y,0) * -8px + var(--stage-scroll,0px) * -.5),0) rotate(calc(8deg + var(--stage-pointer-x,0) * 1.5deg));transition:transform .65s cubic-bezier(.2,.75,.25,1),filter .4s ease}
+.showcase .stage-back-two{transform:translate3d(calc(var(--stage-pointer-x,0) * -21px),calc(var(--stage-pointer-y,0) * -12px + var(--stage-scroll,0px) * -.8),0) rotate(calc(-8deg + var(--stage-pointer-x,0) * 2deg));transition:transform .75s cubic-bezier(.2,.75,.25,1),filter .4s ease}
+.showcase .art-stage::before{content:"";position:absolute;inset:4% -4% -10%;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at var(--stage-light-x,50%) var(--stage-light-y,50%),#f7768918,transparent 65%);opacity:0;transition:opacity .5s}
+.showcase .stage-main::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(ellipse at var(--stage-light-x,50%) var(--stage-light-y,50%),#ffffff20,transparent 64%);box-shadow:inset 0 0 0 1px #ffffff24;opacity:0;transition:opacity .4s}
+.showcase.is-pointer-active .art-stage::before,.showcase.is-pointer-active .stage-main::after{opacity:1}
+.showcase.is-pointer-active .stage-main{box-shadow:0 36px 70px #000a,0 0 0 1px #ffffff38}
+.showcase.is-pointer-active .stage-back{filter:brightness(.82)}
+.showcase .stage-open{z-index:1}
+.showcase .showcase-info>a{display:inline-block}
+.showcase .showcase-arrows button{transition:transform .25s,background .2s,border-color .2s,box-shadow .25s}
+.showcase .showcase-tabs button{position:relative;transition:color .2s,border-color .2s,transform .25s}
+.showcase .showcase-tabs button::before{content:"";position:absolute;inset:-1px 0 auto;height:2px;background:var(--ruby);transform:scaleX(0);transform-origin:left;transition:transform .4s cubic-bezier(.2,.75,.25,1)}
+.showcase .showcase-tabs button[aria-pressed="true"]::before{transform:scaleX(1)}
+.showcase .showcase-arrows button:focus-visible,.showcase .showcase-tabs button:focus-visible{outline:2px solid var(--ruby);outline-offset:5px}
+@media(hover:hover) and (pointer:fine){.showcase .showcase-arrows button:hover{transform:translateY(-3px);box-shadow:0 7px 22px #0005}.showcase .showcase-tabs button:hover{color:var(--paper);transform:translateY(-2px)}.showcase .showcase-arrows button:active{transform:translateY(0) scale(.94)}}
+body.motion-paused .showcase .stage-main,body.motion-paused .showcase .showcase-arrows button,body.motion-paused .showcase .showcase-tabs button{transform:none!important}
+body.motion-paused .showcase .stage-back-one{transform:rotate(8deg)!important}
+body.motion-paused .showcase .stage-back-two{transform:rotate(-8deg)!important}
+body.motion-paused .showcase .art-stage::before,body.motion-paused .showcase .stage-main::after{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.showcase .stage-main,.showcase .showcase-arrows button,.showcase .showcase-tabs button{transform:none!important}.showcase .stage-back-one{transform:rotate(8deg)!important}.showcase .stage-back-two{transform:rotate(-8deg)!important}.showcase .art-stage::before,.showcase .stage-main::after{opacity:0!important}}
