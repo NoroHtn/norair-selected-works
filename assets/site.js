@@ -176,8 +176,12 @@
       title.textContent = item.title;
       showcase.querySelector('[data-showcase-category]').textContent = item.category;
       showcase.querySelector('[data-showcase-count]').textContent = String(index + 1).padStart(2, '0') + ' / ' + String(items.length).padStart(2, '0');
-      showcase.querySelector('.stage-back-one').src = items[(index + 1) % items.length].image;
-      showcase.querySelector('.stage-back-two').src = items[(index + 2) % items.length].image;
+      [['.stage-back-one', 1], ['.stage-back-two', 2]].forEach(([selector, offset]) => {
+        const preview = showcase.querySelector(selector);
+        const previewItem = items[(index + offset) % items.length];
+        (preview.querySelector('img') || preview).src = previewItem.image;
+        preview.setAttribute('aria-label', 'Show ' + previewItem.title);
+      });
       showcase.querySelectorAll('[data-showcase-go]').forEach(button => button.setAttribute('aria-pressed', String(Number(button.dataset.showcaseGo) === index)));
       imageTransition?.cancel();
       titleTransition?.cancel();
@@ -196,6 +200,8 @@
     };
     showcase.querySelector('[data-showcase-prev]').addEventListener('click', () => display(selected - 1));
     showcase.querySelector('[data-showcase-next]').addEventListener('click', () => display(selected + 1));
+    showcase.querySelector('.stage-back-one').addEventListener('click', () => display(selected + 1));
+    showcase.querySelector('.stage-back-two').addEventListener('click', () => display(selected + 2));
     showcase.querySelectorAll('[data-showcase-go]').forEach(button => button.addEventListener('click', () => display(Number(button.dataset.showcaseGo))));
     showcase.addEventListener('keydown', event => {
       if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
