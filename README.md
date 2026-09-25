@@ -2,7 +2,7 @@
 
 A curated game-art portfolio. Static HTML, CSS, and JavaScript; no build dependencies.
 
-Live site: https://norohtn.github.io/norair-selected-works/
+**Live public portfolio:** https://norair-selected-works.cocoa-ball-5078.chatgpt.site
 
 ## Content
 
@@ -10,7 +10,9 @@ Twelve project pages: nine selected titles and three further selections. Project
 
 ## Publishing
 
-GitHub Pages: main branch, repository root. `.nojekyll` keeps all assets available.
+The public site is hosted through Sites. This repository retains the GitHub Pages-ready source. The hosted copy uses the public Site URL for canonical metadata and root-relative 404 navigation.
+
+GitHub Pages is not currently enabled. To use it later, select the main branch and repository root in Pages settings. The `.nojekyll` file keeps assets available.
 
 ## Local preview
 
