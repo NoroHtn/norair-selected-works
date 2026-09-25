@@ -2,7 +2,7 @@
 
 A curated game-art portfolio. Static HTML, CSS, and JavaScript; no build dependencies.
 
-Live site: https://norair-selected-works.cocoa-ball-5078.chatgpt.site
+Live site: https://norohtn.github.io/norair-selected-works/
 
 ## Content
 
@@ -10,11 +10,11 @@ Twenty-six project pages, organized into 15 Slot Games and 11 Crash / Instant ga
 
 ## Publishing
 
-Public hosting: Sites. This repository retains the GitHub Pages-ready source. `.nojekyll` keeps all assets available.
+Public hosting: GitHub Pages, deployed from `main` and `/(root)` in this repository. `.nojekyll` keeps all assets available.
 
 ## Local preview
 
-Run `python -m http.server 8000` from the parent folder and open `/norair-selected-works/`.
+Run `python -m http.server 8000` from this repository and open `http://localhost:8000/`.
 
 Game artwork and branding belong to their respective owners.
 

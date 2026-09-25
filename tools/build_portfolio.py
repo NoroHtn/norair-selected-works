@@ -4,7 +4,7 @@ root=Path(__file__).resolve().parents[1]; data=json.load(open(root/'asset-source
 if not data:raise SystemExit('Asset manifest still downloading')
 E=html.escape
 original='https://norohtn.github.io/Norair_Harutyunyan_Portfolio/'
-base='https://norair-selected-works.cocoa-ball-5078.chatgpt.site/'
+base='https://norohtn.github.io/norair-selected-works/'
 copy={
 'fortune-tao-panda':('Character-led fantasy','A panda character, bamboo greens, and warm gold accents give this Fortune title its distinct visual identity.'),
 'chicken-revenge':('Playful, readable action','Expressive character design and a clear sequence of platforms bring a playful visual language to the game.'),
