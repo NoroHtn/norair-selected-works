@@ -133,6 +133,15 @@
   if (search) {
     search.addEventListener('input', filterGames);
     search.addEventListener('search', filterGames);
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', () => {
+        const target = document.getElementById(link.hash.slice(1));
+        if (target && sections.includes(target) && target.hidden) {
+          search.value = '';
+          filterGames();
+        }
+      });
+    });
     search.addEventListener('keydown', event => {
       if (event.key === 'Escape' && search.value) {
         search.value = '';

@@ -57,5 +57,5 @@ for i,x in enumerate(data):
  nxt=data[(i+1)%len(data)]
  h+=f'''<section class="project-end wrap"><a class="text-link" href="../../index.html#{x['group']}">← {"Slot Games" if x['group']=="slots" else "Crash / Instant"}</a><a href="../{nxt['id']}/"><span class="eyebrow">Next project</span><h2>{E(nxt['title'])} →</h2></a></section></main>'''+foot(prefix);(p/'index.html').write_text(h)
 (root/'.nojekyll').write_text('')
-(root/'404.html').write_text(head('Page not found','404.html','/norair-selected-works/')+'<main id="main" class="wrap notfound"><p class="eyebrow">404</p><h1>Page not found.</h1><a class="button" href="/norair-selected-works/">Return to portfolio</a></main>'+foot(''))
+(root/'404.html').write_text(head('Page not found','404.html',base)+'<main id="main" class="wrap notfound"><p class="eyebrow">404</p><h1>Page not found.</h1><a class="button" href="'+base+'">Return to portfolio</a></main>'+foot(''))
 print('Built polished portfolio and 26 project pages')
