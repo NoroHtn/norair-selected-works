@@ -7,10 +7,18 @@
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/fortune-calico-0.webp",
+        "path": "assets/art/fortune-calico-cover-1200.webp",
         "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6ab50e00cdd5c3ddc7b59a6d_302X302%20Firtune%20Calico.png",
-        "width": 302,
-        "height": 302
+        "width": 1200,
+        "height": 1200,
+        "responsive": "assets/art/fortune-calico-cover-600.webp",
+        "processing": {
+          "method": "Magnific Precision, 4x upscale",
+          "source_width": 302,
+          "source_height": 302,
+          "output_width": 1200,
+          "output_height": 1200
+        }
       },
       {
         "path": "assets/art/fortune-calico-1.webp",
@@ -137,10 +145,18 @@
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/fortune-tao-panda-0.webp",
+        "path": "assets/art/fortune-tao-panda-cover-1200.webp",
         "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b6bc163738206c034c1f7_fortune%20tao%20panda.png",
-        "width": 302,
-        "height": 302
+        "width": 1200,
+        "height": 1200,
+        "responsive": "assets/art/fortune-tao-panda-cover-600.webp",
+        "processing": {
+          "method": "Magnific Precision, 4x upscale",
+          "source_width": 302,
+          "source_height": 302,
+          "output_width": 1200,
+          "output_height": 1200
+        }
       },
       {
         "path": "assets/art/fortune-tao-panda-1.webp",
@@ -174,10 +190,18 @@
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/fortune-capinho-0.webp",
+        "path": "assets/art/fortune-capinho-cover-1200.webp",
         "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b6b8e6256cf9dc209430e_fortune%20capinho.png",
-        "width": 302,
-        "height": 302
+        "width": 1200,
+        "height": 1200,
+        "responsive": "assets/art/fortune-capinho-cover-600.webp",
+        "processing": {
+          "method": "Magnific Precision, 4x upscale",
+          "source_width": 302,
+          "source_height": 302,
+          "output_width": 1200,
+          "output_height": 1200
+        }
       },
       {
         "path": "assets/art/fortune-capinho-1.webp",
@@ -246,10 +270,18 @@
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/golden-tree-20-000-buy-bonus-0.webp",
+        "path": "assets/art/golden-tree-20-000-buy-bonus-cover-1200.webp",
         "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a3bd19ebeb7065508413833_Golden%20Tree%20x20%2C000.png",
-        "width": 302,
-        "height": 302
+        "width": 1200,
+        "height": 1200,
+        "responsive": "assets/art/golden-tree-20-000-buy-bonus-cover-600.webp",
+        "processing": {
+          "method": "Magnific Precision, 4x upscale",
+          "source_width": 302,
+          "source_height": 302,
+          "output_width": 1200,
+          "output_height": 1200
+        }
       },
       {
         "path": "assets/art/golden-tree-20-000-buy-bonus-1.webp",
@@ -276,10 +308,18 @@
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/golden-tree-0.webp",
+        "path": "assets/art/golden-tree-cover-1200.webp",
         "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a2febaa9565789e86eaf8d5_golden%20tree.png",
-        "width": 302,
-        "height": 302
+        "width": 1200,
+        "height": 1200,
+        "responsive": "assets/art/golden-tree-cover-600.webp",
+        "processing": {
+          "method": "Magnific Precision, 4x upscale",
+          "source_width": 302,
+          "source_height": 302,
+          "output_width": 1200,
+          "output_height": 1200
+        }
       },
       {
         "path": "assets/art/golden-tree-1.webp",
@@ -380,10 +420,18 @@
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/juicy-storm-xmas-0.webp",
+        "path": "assets/art/juicy-storm-xmas-cover-1200.webp",
         "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a9529127b904b23efe84d4a_Juicy%20Storm%20Xmas.png",
-        "width": 302,
-        "height": 302
+        "width": 1200,
+        "height": 1200,
+        "responsive": "assets/art/juicy-storm-xmas-cover-600.webp",
+        "processing": {
+          "method": "Magnific Precision, 4x upscale",
+          "source_width": 302,
+          "source_height": 302,
+          "output_width": 1200,
+          "output_height": 1200
+        }
       },
       {
         "path": "assets/art/juicy-storm-xmas-1.webp",
@@ -441,10 +489,18 @@
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/franken-alive-0.webp",
+        "path": "assets/art/franken-alive-cover-1200.webp",
         "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69cfaadc9aea121de96f6298_franken.png",
-        "width": 302,
-        "height": 302
+        "width": 1200,
+        "height": 1200,
+        "responsive": "assets/art/franken-alive-cover-600.webp",
+        "processing": {
+          "method": "Magnific Precision, 4x upscale",
+          "source_width": 302,
+          "source_height": 302,
+          "output_width": 1200,
+          "output_height": 1200
+        }
       },
       {
         "path": "assets/art/franken-alive-1.webp",
@@ -618,10 +674,18 @@
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/pascal-news-0.webp",
+        "path": "assets/art/pascal-news-cover-1200.webp",
         "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69ca2e0805aa6d783ee8b9c8_Pascal%20News.png",
-        "width": 302,
-        "height": 302
+        "width": 1200,
+        "height": 1200,
+        "responsive": "assets/art/pascal-news-cover-600.webp",
+        "processing": {
+          "method": "Magnific Precision, 4x upscale",
+          "source_width": 302,
+          "source_height": 302,
+          "output_width": 1200,
+          "output_height": 1200
+        }
       },
       {
         "path": "assets/art/pascal-news-1.webp",
@@ -655,10 +719,18 @@
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/fishing-the-golden-net-0.webp",
+        "path": "assets/art/fishing-the-golden-net-cover-1200.webp",
         "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b86f635bd6b0e3288372e_fishing%20302x302.png",
-        "width": 302,
-        "height": 302
+        "width": 1200,
+        "height": 1200,
+        "responsive": "assets/art/fishing-the-golden-net-cover-600.webp",
+        "processing": {
+          "method": "Magnific Precision, 4x upscale",
+          "source_width": 302,
+          "source_height": 302,
+          "output_width": 1200,
+          "output_height": 1200
+        }
       },
       {
         "path": "assets/art/fishing-the-golden-net-1.webp",
@@ -721,10 +793,18 @@
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/rockbet-0.webp",
+        "path": "assets/art/rockbet-cover-1200.webp",
         "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a9ea96c9916bd73bf4ceab3_302X302RockBET.png",
-        "width": 302,
-        "height": 301
+        "width": 1200,
+        "height": 1200,
+        "responsive": "assets/art/rockbet-cover-600.webp",
+        "processing": {
+          "method": "Magnific Precision, 4x upscale",
+          "source_width": 302,
+          "source_height": 301,
+          "output_width": 1200,
+          "output_height": 1200
+        }
       },
       {
         "path": "assets/art/rockbet-1.webp",

@@ -17,3 +17,11 @@ Public hosting: Sites. This repository retains the GitHub Pages-ready source. `.
 Run `python -m http.server 8000` from the parent folder and open `/norair-selected-works/`.
 
 Game artwork and branding belong to their respective owners.
+
+## Presentation
+
+Self-hosted typefaces, responsive cover artwork, game search, pointer-aware card depth, scroll reveals, keyboard galleries, and click-to-play cinematics. Motion respects the visitor’s reduced-motion preference. Ten official covers are precision-upscaled to 1200px; asset-sources.json records originals and processing.
+
+The two cinematic files are exact copies of the original public portfolio’s mobile MP4 exports, served locally for reliable playback.
+
+Regenerate HTML with `python tools/build_portfolio.py`. CSS and JavaScript live in `assets/`.
