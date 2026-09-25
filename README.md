@@ -22,6 +22,8 @@ Game artwork and branding belong to their respective owners.
 
 Self-hosted typefaces, responsive cover artwork, game search, pointer-aware card depth, scroll reveals, keyboard galleries, and click-to-play cinematics. Motion respects the visitor’s reduced-motion preference. Ten official covers are precision-upscaled to 1200px; asset-sources.json records originals and processing.
 
-The two cinematic files are exact copies of the original public portfolio’s mobile MP4 exports, served locally for reliable playback.
+The Fortune Don Tiger cinematic is served locally. The Atlantis video has been removed; its artwork-only project remains in the collection.
 
 Regenerate HTML with `python tools/build_portfolio.py`. CSS and JavaScript live in `assets/`.
+
+Interactive presentation: a manual Fortune artwork showcase, grid/index layout, visible search feedback, motion control, zoomable keyboard artwork viewer, and progressive page transitions. All 26 projects retain their established order.
