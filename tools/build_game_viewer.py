@@ -29,11 +29,11 @@ for index,game in enumerate(GAMES):
     p=ROOT/'work'/game['id']/'index.html'; s=p.read_text()
     s=re.sub(r'<main id="main">.*?</main>', '<main id="main">'+detail(game,index,'../../')+'</main>',s,flags=re.S)
     s=s.replace('<body>',f'<body class="project-page" data-project-id="{game["id"]}">')
-    s=s.replace('</head>','<link rel="stylesheet" href="../../assets/game-viewer.css?v=6"><script defer src="../../assets/game-viewer.js?v=6"></script></head>') if 'assets/game-viewer.css' not in s else s
+    s=s.replace('</head>','<link rel="stylesheet" href="../../assets/game-viewer.css?v=7-red"><script defer src="../../assets/game-viewer.js?v=6"></script></head>') if 'assets/game-viewer.css' not in s else s
     s=s.replace('assets/presentation.css?v=4','assets/presentation.css?v=6').replace('assets/site.js?v=4','assets/site.js?v=6')
     p.write_text(s)
 p=ROOT/'index.html';s=p.read_text()
-s=s.replace('</head>','<link rel="stylesheet" href="assets/game-viewer.css?v=6"><script defer src="assets/game-viewer.js?v=6"></script></head>') if 'assets/game-viewer.css' not in s else s
+s=s.replace('</head>','<link rel="stylesheet" href="assets/game-viewer.css?v=7-red"><script defer src="assets/game-viewer.js?v=6"></script></head>') if 'assets/game-viewer.css' not in s else s
 s=s.replace('assets/presentation.css?v=5','assets/presentation.css?v=6').replace('assets/site.js?v=5','assets/site.js?v=6')
 dialog='<dialog class="game-viewer" aria-labelledby="game-dialog-title">'+detail(GAMES[0],0,modal=True)+'</dialog>'
 if '<dialog class="game-viewer"' not in s:s=s.replace('</body>',dialog+'</body>')
