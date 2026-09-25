@@ -1,18 +1,16 @@
-# Norair Harutyunyan — Selected Works
+# Norair Harutyunyan — Game Art Portfolio
 
 A curated game-art portfolio. Static HTML, CSS, and JavaScript; no build dependencies.
 
-**Live public portfolio:** https://norair-selected-works.cocoa-ball-5078.chatgpt.site
+Live site: https://norair-selected-works.cocoa-ball-5078.chatgpt.site
 
 ## Content
 
-Twelve project pages: nine selected titles and three further selections. Project links point to verified official Pascal Gaming pages. Assets are reused from the original public portfolio and official game pages. The original portfolio is maintained separately.
+Twenty-six project pages, organized into 15 Slot Games and 11 Crash / Instant games. Project links point to verified official Pascal Gaming pages. Assets are reused from the original public portfolio and official game pages. The original portfolio is maintained separately.
 
 ## Publishing
 
-The public site is hosted through Sites. This repository retains the GitHub Pages-ready source. The hosted copy uses the public Site URL for canonical metadata and root-relative 404 navigation.
-
-GitHub Pages is not currently enabled. To use it later, select the main branch and repository root in Pages settings. The `.nojekyll` file keeps assets available.
+Public hosting: Sites. This repository retains the GitHub Pages-ready source. `.nojekyll` keeps all assets available.
 
 ## Local preview
 

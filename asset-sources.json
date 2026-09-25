@@ -1,140 +1,101 @@
 [
   {
-    "id": "fortune-tao-panda",
-    "title": "Fortune Tao Panda",
+    "id": "fortune-calico",
+    "title": "Fortune Calico",
     "category": "Slots",
-    "official": "https://www.pascalgaming.com/games/fortune-tao-panda",
+    "official": "https://www.pascalgaming.com/games/fortune-calico",
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/fortune-tao-panda-0.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b6bc163738206c034c1f7_fortune%20tao%20panda.png",
+        "path": "assets/art/fortune-calico-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6ab50e00cdd5c3ddc7b59a6d_302X302%20Firtune%20Calico.png",
         "width": 302,
         "height": 302
       },
       {
-        "path": "assets/art/fortune-tao-panda-1.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b549dd5346d978c9394d4_Loading.png",
-        "width": 628,
-        "height": 354
+        "path": "assets/art/fortune-calico-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a913d704a80dca8e1e49db1_converted_image.jpeg",
+        "width": 1600,
+        "height": 900
       },
       {
-        "path": "assets/art/fortune-tao-panda-2.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b549deb31681d4fd47223_Main.png",
-        "width": 628,
-        "height": 354
-      },
-      {
-        "path": "assets/art/fortune-tao-panda-3.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b549dd5346d978c9394c3_Win.png",
-        "width": 628,
-        "height": 354
+        "path": "assets/art/fortune-calico-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a913e5e5557cf76b9ccee8a_converted_image%20(1).jpeg",
+        "width": 1600,
+        "height": 900
       }
-    ]
+    ],
+    "order": 1,
+    "group_order": 1,
+    "group": "slots"
   },
   {
-    "id": "chicken-revenge",
-    "title": "Chicken Revenge",
-    "category": "Instant",
-    "official": "https://www.pascalgaming.com/games/chicken-revenge",
-    "verified": "2026-09-25",
-    "art": [
-      {
-        "path": "assets/art/chicken-revenge-0.webp",
-        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/chicken-revenge@3x.webp",
-        "width": 906,
-        "height": 906
-      },
-      {
-        "path": "assets/art/chicken-revenge-1.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4ce562b4baea7451456aa0_Jump.jpg",
-        "width": 1256,
-        "height": 706
-      },
-      {
-        "path": "assets/art/chicken-revenge-2.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4ce5621ba0b1596d26e1eb_Start.jpg",
-        "width": 1256,
-        "height": 706
-      },
-      {
-        "path": "assets/art/chicken-revenge-3.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4ce5624ff98407c5885686_You%20Won.jpg",
-        "width": 1256,
-        "height": 706
-      }
-    ]
-  },
-  {
-    "id": "fishing-the-golden-net",
-    "title": "Fishing: The Golden Net",
-    "category": "Instant",
-    "official": "https://www.pascalgaming.com/games/fishing-the-golden-net",
-    "verified": "2026-09-25",
-    "art": [
-      {
-        "path": "assets/art/fishing-the-golden-net-0.webp",
-        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/fishing@3x.webp",
-        "width": 906,
-        "height": 906
-      },
-      {
-        "path": "assets/art/fishing-the-golden-net-1.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b87a0a4cfb1d15860843c_Intro%20screen%201.jpg",
-        "width": 1800,
-        "height": 1012
-      },
-      {
-        "path": "assets/art/fishing-the-golden-net-2.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b87a06e9d802306eeef75_Intro%20screen.jpg",
-        "width": 1800,
-        "height": 1012
-      },
-      {
-        "path": "assets/art/fishing-the-golden-net-3.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b87a07e088bbc7b796aaf_Loading.jpg",
-        "width": 1800,
-        "height": 1012
-      }
-    ]
-  },
-  {
-    "id": "fortune-capinho",
-    "title": "Fortune Capinho",
+    "id": "fortune-don-tiger",
+    "title": "Fortune Don Tiger",
     "category": "Slots",
-    "official": "https://www.pascalgaming.com/games/fortune-capinho",
+    "order": 2,
+    "official": "https://www.pascalgaming.com/games/fortune-don-tiger-2",
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/fortune-capinho-0.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b6b8e6256cf9dc209430e_fortune%20capinho.png",
-        "width": 302,
-        "height": 302
+        "path": "assets/art/fortune-don-tiger-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/fortune-don-tiger@3x.webp",
+        "width": 906,
+        "height": 906
       },
       {
-        "path": "assets/art/fortune-capinho-1.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b561ec8293c026977152b_Loading.png",
-        "width": 628,
-        "height": 354
+        "path": "assets/art/fortune-don-tiger-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a144b16d170df00481d899c_Loading%20(1).png",
+        "width": 1800,
+        "height": 1012
       },
       {
-        "path": "assets/art/fortune-capinho-2.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b561ee0e546636875961b_Main.png",
-        "width": 628,
-        "height": 354
-      },
-      {
-        "path": "assets/art/fortune-capinho-3.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b561eb5fb2b1ee36362e6_Win.png",
-        "width": 628,
-        "height": 354
+        "path": "assets/art/fortune-don-tiger-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a144b16121928b9fa9485e5_Main%20(1).png",
+        "width": 1800,
+        "height": 1012
       }
-    ]
+    ],
+    "display_max": 1800,
+    "group_order": 2,
+    "group": "slots"
+  },
+  {
+    "id": "fortune-master-goat",
+    "title": "Fortune Master Goat",
+    "category": "Slots",
+    "order": 3,
+    "official": "https://www.pascalgaming.com/games/fortune-master-goat",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/fortune-master-goat-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/fortune-master-goat@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/fortune-master-goat-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a1449a068accc623cba9dd9_Loading.png",
+        "width": 1800,
+        "height": 1012
+      },
+      {
+        "path": "assets/art/fortune-master-goat-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a1449955d90e1d84806a1ad_Main.png",
+        "width": 1800,
+        "height": 1012
+      }
+    ],
+    "display_max": 1800,
+    "group_order": 3,
+    "group": "slots"
   },
   {
     "id": "fortune-ronaldinho",
     "title": "Fortune Ronaldinho",
     "category": "Slots",
+    "order": 4,
     "official": "https://www.pascalgaming.com/games/fortune-ronaldinho",
     "verified": "2026-09-25",
     "art": [
@@ -162,132 +123,192 @@
         "width": 1256,
         "height": 707
       }
-    ]
+    ],
+    "display_max": 1256,
+    "group_order": 4,
+    "group": "slots"
   },
   {
-    "id": "avinho-r10",
-    "title": "Avinho R10",
-    "category": "Crash",
-    "official": "https://www.pascalgaming.com/games/avinho-r10",
-    "verified": "2026-09-25",
-    "art": [
-      {
-        "path": "assets/art/avinho-r10-0.webp",
-        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/avinho-r10@3x.webp",
-        "width": 906,
-        "height": 906
-      },
-      {
-        "path": "assets/art/avinho-r10-1.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a155205423a6b96741e137f_Loading%20(5).png",
-        "width": 1800,
-        "height": 1054
-      },
-      {
-        "path": "assets/art/avinho-r10-2.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a1552002ff90d122ab50bed_Main%20game.png",
-        "width": 1800,
-        "height": 1054
-      },
-      {
-        "path": "assets/art/avinho-r10-3.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a1552011e7c47b7c60e2f1d_Win%20(2).png",
-        "width": 1800,
-        "height": 1054
-      }
-    ]
-  },
-  {
-    "id": "fortune-master-goat",
-    "title": "Fortune Master Goat",
+    "id": "fortune-tao-panda",
+    "title": "Fortune Tao Panda",
     "category": "Slots",
-    "official": "https://www.pascalgaming.com/games/fortune-master-goat",
+    "order": 5,
+    "official": "https://www.pascalgaming.com/games/fortune-tao-panda",
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/fortune-master-goat-0.webp",
-        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/fortune-master-goat@3x.webp",
-        "width": 906,
-        "height": 906
+        "path": "assets/art/fortune-tao-panda-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b6bc163738206c034c1f7_fortune%20tao%20panda.png",
+        "width": 302,
+        "height": 302
       },
       {
-        "path": "assets/art/fortune-master-goat-1.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a1449a068accc623cba9dd9_Loading.png",
-        "width": 1800,
-        "height": 1012
+        "path": "assets/art/fortune-tao-panda-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b549dd5346d978c9394d4_Loading.png",
+        "width": 628,
+        "height": 354
       },
       {
-        "path": "assets/art/fortune-master-goat-2.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a1449955d90e1d84806a1ad_Main.png",
-        "width": 1800,
-        "height": 1012
+        "path": "assets/art/fortune-tao-panda-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b549deb31681d4fd47223_Main.png",
+        "width": 628,
+        "height": 354
+      },
+      {
+        "path": "assets/art/fortune-tao-panda-3.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b549dd5346d978c9394c3_Win.png",
+        "width": 628,
+        "height": 354
       }
-    ]
+    ],
+    "display_max": 628,
+    "group_order": 5,
+    "group": "slots"
   },
   {
-    "id": "fortune-don-tiger",
-    "title": "Fortune Don Tiger",
+    "id": "fortune-capinho",
+    "title": "Fortune Capinho",
     "category": "Slots",
-    "official": "https://www.pascalgaming.com/games/fortune-don-tiger-2",
+    "order": 6,
+    "official": "https://www.pascalgaming.com/games/fortune-capinho",
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/fortune-don-tiger-0.webp",
-        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/fortune-don-tiger@3x.webp",
-        "width": 906,
-        "height": 906
+        "path": "assets/art/fortune-capinho-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b6b8e6256cf9dc209430e_fortune%20capinho.png",
+        "width": 302,
+        "height": 302
       },
       {
-        "path": "assets/art/fortune-don-tiger-1.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a144b16d170df00481d899c_Loading%20(1).png",
-        "width": 1800,
-        "height": 1012
+        "path": "assets/art/fortune-capinho-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b561ec8293c026977152b_Loading.png",
+        "width": 628,
+        "height": 354
       },
       {
-        "path": "assets/art/fortune-don-tiger-2.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a144b16121928b9fa9485e5_Main%20(1).png",
-        "width": 1800,
-        "height": 1012
+        "path": "assets/art/fortune-capinho-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b561ee0e546636875961b_Main.png",
+        "width": 628,
+        "height": 354
+      },
+      {
+        "path": "assets/art/fortune-capinho-3.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b561eb5fb2b1ee36362e6_Win.png",
+        "width": 628,
+        "height": 354
       }
-    ]
+    ],
+    "display_max": 628,
+    "group_order": 6,
+    "group": "slots"
   },
   {
-    "id": "jack-and-cheeky-duck",
-    "title": "Jack and Cheeky Duck",
-    "category": "Crash",
-    "official": "https://www.pascalgaming.com/games/jack-and-cheeky-duck-2",
+    "id": "golden-tree-100-fortune-coin",
+    "title": "Golden Tree 100 Fortune Coin",
+    "category": "Slots",
+    "official": "https://www.pascalgaming.com/games/golden-tree-100-fortune-coin",
     "verified": "2026-09-25",
     "art": [
       {
-        "path": "assets/art/jack-and-cheeky-duck-0.webp",
-        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/jack-and-cheeky-duck@3x.webp",
-        "width": 906,
-        "height": 906
+        "path": "assets/art/golden-tree-100-fortune-coin-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6ab3a68ede7079bc5d98e5ef_100%20Fortune%20Coin.png",
+        "width": 302,
+        "height": 302
       },
       {
-        "path": "assets/art/jack-and-cheeky-duck-1.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a153a2dc27920c7025e4e21_Loading%20(2).png",
-        "width": 1800,
-        "height": 1012
+        "path": "assets/art/golden-tree-100-fortune-coin-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6ab3a8edbb93e74eac62d793_Screenshot%202026-09-23%20at%2014.18.35.png",
+        "width": 1600,
+        "height": 899
       },
       {
-        "path": "assets/art/jack-and-cheeky-duck-2.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a153a2ce66907986a31176d_Main%20(2).png",
-        "width": 1800,
-        "height": 1012
+        "path": "assets/art/golden-tree-100-fortune-coin-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6ab3a8eebb93e74eac62d7d0_Screenshot%202026-09-23%20at%2014.19.39.png",
+        "width": 1600,
+        "height": 895
       },
       {
-        "path": "assets/art/jack-and-cheeky-duck-3.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a153a2cb817190976125be9_Win.png",
-        "width": 1800,
-        "height": 1012
+        "path": "assets/art/golden-tree-100-fortune-coin-3.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6ab3a8ea19e3d6f9e7100457_Screenshot%202026-09-23%20at%2014.21.12.png",
+        "width": 1600,
+        "height": 907
       }
-    ]
+    ],
+    "order": 7,
+    "group_order": 7,
+    "group": "slots"
+  },
+  {
+    "id": "golden-tree-20-000-buy-bonus",
+    "title": "Golden Tree X20000 Buy Bonus",
+    "category": "Slots",
+    "official": "https://www.pascalgaming.com/games/golden-tree-20-000-buy-bonus",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/golden-tree-20-000-buy-bonus-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a3bd19ebeb7065508413833_Golden%20Tree%20x20%2C000.png",
+        "width": 302,
+        "height": 302
+      },
+      {
+        "path": "assets/art/golden-tree-20-000-buy-bonus-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a3bd3430308b3b119d6dbfd_Screenshot%202026-06-24%20165254.png",
+        "width": 1538,
+        "height": 866
+      },
+      {
+        "path": "assets/art/golden-tree-20-000-buy-bonus-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a3bd360515c444e9d77a8df_Screenshot%202026-06-24%20165342.png",
+        "width": 1553,
+        "height": 855
+      }
+    ],
+    "order": 8,
+    "group_order": 8,
+    "group": "slots"
+  },
+  {
+    "id": "golden-tree",
+    "title": "Golden Tree",
+    "category": "Slots",
+    "official": "https://www.pascalgaming.com/games/golden-tree",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/golden-tree-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a2febaa9565789e86eaf8d5_golden%20tree.png",
+        "width": 302,
+        "height": 302
+      },
+      {
+        "path": "assets/art/golden-tree-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a2feec662ae15f8d87a8ba3_Intro%20(2).png",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "assets/art/golden-tree-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a2feec684ef6bca5a974f4c_Loading%20(6).png",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "assets/art/golden-tree-3.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a2feec54ca29c308f674c92_Main%20(4).png",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "order": 9,
+    "group_order": 9,
+    "group": "slots"
   },
   {
     "id": "the-god-of-atlantis",
     "title": "The God of Atlantis",
     "category": "Slots",
+    "order": 10,
     "official": "https://www.pascalgaming.com/games/the-god-of-atlantis",
     "verified": "2026-09-25",
     "art": [
@@ -309,39 +330,16 @@
         "width": 1800,
         "height": 1012
       }
-    ]
-  },
-  {
-    "id": "honey-money-1000",
-    "title": "Honey Money 1000",
-    "category": "Slots",
-    "official": "https://www.pascalgaming.com/games/honey-money-1000",
-    "verified": "2026-09-25",
-    "art": [
-      {
-        "path": "assets/art/honey-money-1000-0.webp",
-        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/honey-money-1000@3x.webp",
-        "width": 906,
-        "height": 906
-      },
-      {
-        "path": "assets/art/honey-money-1000-1.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a6c49b0ec27fe59b89fec85_Screenshot%202026-07-31%20110717.png",
-        "width": 1547,
-        "height": 868
-      },
-      {
-        "path": "assets/art/honey-money-1000-2.webp",
-        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a6c4ab70c9d6be476fe383c_Screenshot%202026-07-31%20110821.png",
-        "width": 1553,
-        "height": 872
-      }
-    ]
+    ],
+    "display_max": 1800,
+    "group_order": 10,
+    "group": "slots"
   },
   {
     "id": "sugar-balloon",
     "title": "Sugar Balloon",
     "category": "Slots",
+    "order": 11,
     "official": "https://www.pascalgaming.com/games/sugar-balloon",
     "verified": "2026-09-25",
     "art": [
@@ -369,6 +367,500 @@
         "width": 1800,
         "height": 1013
       }
-    ]
+    ],
+    "display_max": 1440,
+    "group_order": 11,
+    "group": "slots"
+  },
+  {
+    "id": "juicy-storm-xmas",
+    "title": "Juicy Storm Xmas",
+    "category": "Slots",
+    "official": "https://www.pascalgaming.com/games/juicy-storm-xmas",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/juicy-storm-xmas-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a9529127b904b23efe84d4a_Juicy%20Storm%20Xmas.png",
+        "width": 302,
+        "height": 302
+      },
+      {
+        "path": "assets/art/juicy-storm-xmas-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a952ad28f9c9b325aa38fcb_Screenshot%202026-08-31%20at%2011.17.31.png",
+        "width": 1600,
+        "height": 893
+      },
+      {
+        "path": "assets/art/juicy-storm-xmas-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a952ad2fdddc19fa6747e12_Screenshot%202026-08-31%20at%2011.15.09.png",
+        "width": 1600,
+        "height": 950
+      }
+    ],
+    "order": 12,
+    "group_order": 12,
+    "group": "slots"
+  },
+  {
+    "id": "honey-money-1000",
+    "title": "Honey Money 1000",
+    "category": "Slots",
+    "order": 13,
+    "official": "https://www.pascalgaming.com/games/honey-money-1000",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/honey-money-1000-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/honey-money-1000@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/honey-money-1000-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a6c49b0ec27fe59b89fec85_Screenshot%202026-07-31%20110717.png",
+        "width": 1547,
+        "height": 868
+      },
+      {
+        "path": "assets/art/honey-money-1000-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a6c4ab70c9d6be476fe383c_Screenshot%202026-07-31%20110821.png",
+        "width": 1553,
+        "height": 872
+      }
+    ],
+    "display_max": 1547,
+    "group_order": 13,
+    "group": "slots"
+  },
+  {
+    "id": "franken-alive",
+    "title": "Franken Alive",
+    "category": "Slots",
+    "official": "https://www.pascalgaming.com/games/franken-alive",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/franken-alive-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69cfaadc9aea121de96f6298_franken.png",
+        "width": 302,
+        "height": 302
+      },
+      {
+        "path": "assets/art/franken-alive-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69cfad750ef9d73e6165a3bc_Intro.png",
+        "width": 628,
+        "height": 353
+      },
+      {
+        "path": "assets/art/franken-alive-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69cfad79877c4ca5c2174467_Loading.png",
+        "width": 628,
+        "height": 353
+      },
+      {
+        "path": "assets/art/franken-alive-3.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69cfad84685dd636044f446f_Main.png",
+        "width": 628,
+        "height": 353
+      }
+    ],
+    "order": 14,
+    "group_order": 14,
+    "group": "slots"
+  },
+  {
+    "id": "book-of-the-sun",
+    "title": "Book of the Sun",
+    "category": "Slots",
+    "official": "https://www.pascalgaming.com/games/book-of-the-sun",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/book-of-the-sun-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/book-of-the-sun@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/book-of-the-sun-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69d3956392380a45f57dbec4_Loading.jpg",
+        "width": 1600,
+        "height": 899
+      },
+      {
+        "path": "assets/art/book-of-the-sun-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69d39564cca0a89817b8d8b0_Main.jpg",
+        "width": 1600,
+        "height": 899
+      }
+    ],
+    "order": 15,
+    "group_order": 15,
+    "group": "slots"
+  },
+  {
+    "id": "avinho-r10",
+    "title": "Avinho R10",
+    "category": "Crash",
+    "order": 16,
+    "official": "https://www.pascalgaming.com/games/avinho-r10",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/avinho-r10-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/avinho-r10@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/avinho-r10-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a155205423a6b96741e137f_Loading%20(5).png",
+        "width": 1800,
+        "height": 1054
+      },
+      {
+        "path": "assets/art/avinho-r10-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a1552002ff90d122ab50bed_Main%20game.png",
+        "width": 1800,
+        "height": 1054
+      },
+      {
+        "path": "assets/art/avinho-r10-3.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a1552011e7c47b7c60e2f1d_Win%20(2).png",
+        "width": 1800,
+        "height": 1054
+      }
+    ],
+    "display_max": 1800,
+    "group_order": 1,
+    "group": "crash-instant"
+  },
+  {
+    "id": "chicken-revenge",
+    "title": "Chicken Revenge",
+    "category": "Instant",
+    "order": 17,
+    "official": "https://www.pascalgaming.com/games/chicken-revenge",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/chicken-revenge-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/chicken-revenge@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/chicken-revenge-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4ce562b4baea7451456aa0_Jump.jpg",
+        "width": 1256,
+        "height": 706
+      },
+      {
+        "path": "assets/art/chicken-revenge-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4ce5621ba0b1596d26e1eb_Start.jpg",
+        "width": 1256,
+        "height": 706
+      },
+      {
+        "path": "assets/art/chicken-revenge-3.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4ce5624ff98407c5885686_You%20Won.jpg",
+        "width": 1256,
+        "height": 706
+      }
+    ],
+    "display_max": 1256,
+    "group_order": 2,
+    "group": "crash-instant"
+  },
+  {
+    "id": "jack-and-cheeky-duck",
+    "title": "Jack and Cheeky Duck",
+    "category": "Crash",
+    "order": 18,
+    "official": "https://www.pascalgaming.com/games/jack-and-cheeky-duck-2",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/jack-and-cheeky-duck-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/jack-and-cheeky-duck@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/jack-and-cheeky-duck-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a153a2dc27920c7025e4e21_Loading%20(2).png",
+        "width": 1800,
+        "height": 1012
+      },
+      {
+        "path": "assets/art/jack-and-cheeky-duck-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a153a2ce66907986a31176d_Main%20(2).png",
+        "width": 1800,
+        "height": 1012
+      },
+      {
+        "path": "assets/art/jack-and-cheeky-duck-3.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a153a2cb817190976125be9_Win.png",
+        "width": 1800,
+        "height": 1012
+      }
+    ],
+    "display_max": 1800,
+    "group_order": 3,
+    "group": "crash-instant"
+  },
+  {
+    "id": "pascal-news",
+    "title": "Pascal News",
+    "category": "Crash",
+    "official": "https://www.pascalgaming.com/games/pascal-news-2",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/pascal-news-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69ca2e0805aa6d783ee8b9c8_Pascal%20News.png",
+        "width": 302,
+        "height": 302
+      },
+      {
+        "path": "assets/art/pascal-news-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a15344dd66b1294ec482477_Loading.jpg",
+        "width": 1600,
+        "height": 899
+      },
+      {
+        "path": "assets/art/pascal-news-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a15344daffba9a1bf2102b8_Loading-1.jpg",
+        "width": 1600,
+        "height": 899
+      },
+      {
+        "path": "assets/art/pascal-news-3.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a15344c79bc4b6557e556b9_Main.jpg",
+        "width": 1600,
+        "height": 899
+      }
+    ],
+    "order": 19,
+    "group_order": 4,
+    "group": "crash-instant"
+  },
+  {
+    "id": "fishing-the-golden-net",
+    "title": "Fishing: The Golden Net",
+    "category": "Instant",
+    "order": 20,
+    "official": "https://www.pascalgaming.com/games/fishing-the-golden-net",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/fishing-the-golden-net-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b86f635bd6b0e3288372e_fishing%20302x302.png",
+        "width": 302,
+        "height": 302
+      },
+      {
+        "path": "assets/art/fishing-the-golden-net-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b87a0a4cfb1d15860843c_Intro%20screen%201.jpg",
+        "width": 1800,
+        "height": 1012
+      },
+      {
+        "path": "assets/art/fishing-the-golden-net-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b87a06e9d802306eeef75_Intro%20screen.jpg",
+        "width": 1800,
+        "height": 1012
+      },
+      {
+        "path": "assets/art/fishing-the-golden-net-3.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a4b87a07e088bbc7b796aaf_Loading.jpg",
+        "width": 1800,
+        "height": 1012
+      }
+    ],
+    "display_max": 1800,
+    "group_order": 5,
+    "group": "crash-instant"
+  },
+  {
+    "id": "aviabet",
+    "title": "Aviabet",
+    "category": "Crash",
+    "official": "https://www.pascalgaming.com/games/aviabet",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/aviabet-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/aviabet@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/aviabet-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69d39b65a8f0489f3c335d03_Cashout.png",
+        "width": 608,
+        "height": 353
+      },
+      {
+        "path": "assets/art/aviabet-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69d39b65726e19864108d610_Win%202.png",
+        "width": 608,
+        "height": 353
+      }
+    ],
+    "order": 21,
+    "group_order": 6,
+    "group": "crash-instant"
+  },
+  {
+    "id": "rockbet",
+    "title": "RockBet",
+    "category": "Crash",
+    "official": "https://www.pascalgaming.com/games/rockbet",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/rockbet-0.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a9ea96c9916bd73bf4ceab3_302X302RockBET.png",
+        "width": 302,
+        "height": 301
+      },
+      {
+        "path": "assets/art/rockbet-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a957196d32738d6afa1d3a6_Screenshot%202026-08-31%20at%2016.17.06.png",
+        "width": 1600,
+        "height": 951
+      },
+      {
+        "path": "assets/art/rockbet-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a9572bf03f005153d883ab7_Screenshot%202026-08-31%20at%2016.21.24.png",
+        "width": 1600,
+        "height": 910
+      }
+    ],
+    "order": 22,
+    "group_order": 7,
+    "group": "crash-instant"
+  },
+  {
+    "id": "chartx",
+    "title": "ChartX",
+    "category": "Crash",
+    "official": "https://www.pascalgaming.com/games/chartx",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/chartx-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/chart-x@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/chartx-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69d39a177a7a6244dd7e7eb2_Win%202.png",
+        "width": 1236,
+        "height": 706
+      },
+      {
+        "path": "assets/art/chartx-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69d39a177a3dcbb4cc377b0d_Screenshot%202026-01-09%20at%2011.53.40%201.png",
+        "width": 628,
+        "height": 320
+      }
+    ],
+    "order": 23,
+    "group_order": 8,
+    "group": "crash-instant"
+  },
+  {
+    "id": "gates-of-power",
+    "title": "Gates of Power",
+    "category": "Instant",
+    "official": "https://www.pascalgaming.com/games/gates-of-power",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/gates-of-power-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/gates-of-power@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/gates-of-power-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69d4e56120465ebd60af52b2_Power%20Of%20Gods%20web%20-%20Auto%20Cashout.png",
+        "width": 1600,
+        "height": 1139
+      },
+      {
+        "path": "assets/art/gates-of-power-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69d4e56129035df530608aa5_Power%20Of%20Gods%20web%20-%20Zeus.png",
+        "width": 1600,
+        "height": 1139
+      }
+    ],
+    "order": 24,
+    "group_order": 9,
+    "group": "crash-instant"
+  },
+  {
+    "id": "drift",
+    "title": "Drift",
+    "category": "Crash",
+    "official": "https://www.pascalgaming.com/games/drift",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/drift-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/drift@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/drift-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a21363ad5ce150393e39ab6_Main.png",
+        "width": 1256,
+        "height": 706
+      },
+      {
+        "path": "assets/art/drift-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/6a21363afc352801f160c598_Result.png",
+        "width": 1256,
+        "height": 706
+      }
+    ],
+    "order": 25,
+    "group_order": 10,
+    "group": "crash-instant"
+  },
+  {
+    "id": "fishing",
+    "title": "Fishing",
+    "category": "Instant",
+    "official": "https://www.pascalgaming.com/games/fishing",
+    "verified": "2026-09-25",
+    "art": [
+      {
+        "path": "assets/art/fishing-0.webp",
+        "origin": "https://raw.githubusercontent.com/NoroHtn/Norair_Harutyunyan_Portfolio/main/games/fishing@3x.webp",
+        "width": 906,
+        "height": 906
+      },
+      {
+        "path": "assets/art/fishing-1.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69d4df9f3a2e29af21890a63_Screenshot%202026-01-15%20at%2012.39.26.png",
+        "width": 628,
+        "height": 347
+      },
+      {
+        "path": "assets/art/fishing-2.webp",
+        "origin": "https://cdn.prod.website-files.com/6965fb0d67d3956f9820232d/69d4df9e6abc3fd8246f3a33_Screenshot%202026-01-15%20at%2012.39.58.png",
+        "width": 628,
+        "height": 347
+      }
+    ],
+    "order": 26,
+    "group_order": 11,
+    "group": "crash-instant"
   }
 ]
